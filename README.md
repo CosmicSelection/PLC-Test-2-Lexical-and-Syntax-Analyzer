@@ -6,7 +6,7 @@ selection -->{ 'OPTION'  (<bool>| 'Other') ':' [<codeBlock>]';'}
 loop --> 'LOOP' <bool>  ':' {<codeBlock>} 'EXIT' (<bool>|<expr>)';' 
 variable --> { _ | <letters>} 
 bool --> <equation> ( <| >| <=| >=| ==) <equation>
-equation -- > {<expr>| '(' <expr> ')'}
+equation -- > {<expr>| '(' <expr> ')' }
 expr --> < term> { ( +| /)  <term>}
 term --> <factor> {( *| -|%)  <factor>}
 factor --> (<variable>|<value>)
