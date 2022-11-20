@@ -1,3 +1,8 @@
+EBNF for my coding language
+	includes lexeme names and syntax
+	
+
+
 Code -->    ~  <codeBlock> ~
 codeBlock -->   { <assignment> | <selection> | <loop>}
 assignment --> <variable> '=' (<variable>| <value>)';' <manipulation>
