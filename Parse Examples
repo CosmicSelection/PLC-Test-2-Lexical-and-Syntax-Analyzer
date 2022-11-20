@@ -1,3 +1,5 @@
+The Parse Table changed '~' to  '_'
+
 ex1.
  Input (tokens): 
 _ abcdef = 123b4 ; _
