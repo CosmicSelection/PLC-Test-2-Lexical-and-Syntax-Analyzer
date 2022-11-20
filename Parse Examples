@@ -1,0 +1,51 @@
+ex1.
+  Input (tokens): 
+    ~ abcdef = 123b4 ; ~
+
+    Maximum number of steps: 
+    100
+
+
+
+    Trace	Tree
+    Step	Stack	Input	Action
+    1	0	~ abcdef = 123b4 ; ~ $
+    
+ex2. 
+  Input (tokens): 
+~ option tuvwxyz < 48b: ; ~
+
+Maximum number of steps: 
+100
+
+
+
+Trace	Tree
+Step	Stack	Input	Action
+1	0	~ option tuvwxyz < 48b: ; ~ $	 	 
+
+ex3. 
+  Input (tokens): 
+~ question = 43b ;  ~
+
+Maximum number of steps: 
+100
+
+
+
+Trace	Tree
+Step	Stack	Input	Action
+1	0	~ question = 43b ; ~ $	 	 
+
+ex4. 
+  Input (tokens): 
+~ exit xdysdf > 43 ~
+
+Maximum number of steps: 
+100
+
+
+
+Trace	Tree
+Step	Stack	Input	Action
+1	0	~ exit xdysdf > 43 ~ $	 	 
