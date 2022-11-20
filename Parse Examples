@@ -1,19 +1,6 @@
 ex1.
-  Input (tokens): 
-    ~ abcdef = 123b4 ; ~
-
-    Maximum number of steps: 
-    100
-
-
-
-    Trace	Tree
-    Step	Stack	Input	Action
-    1	0	~ abcdef = 123b4 ; ~ $
-    
-ex2. 
-  Input (tokens): 
-~ option tuvwxyz < 48b: ; ~
+ Input (tokens): 
+_ abcdef = 123b4 ; _
 
 Maximum number of steps: 
 100
@@ -22,11 +9,26 @@ Maximum number of steps:
 
 Trace	Tree
 Step	Stack	Input	Action
-1	0	~ option tuvwxyz < 48b: ; ~ $	 	 
+1	0	_ abcdef = 123b4 ; _ $	s8	 
+2	0 _ 8	abcdef = 123b4 ; _ $	 
+
+ex2. 
+  Input (tokens): 
+_ option tuvwxyz < 48b: ; _
+
+Maximum number of steps: 
+100
+
+
+
+Trace	Tree
+Step	Stack	Input	Action
+1	0	_ option tuvwxyz < 48b: ; _ $	s8	 
+2	0 _ 8	option tuvwxyz < 48b: ; _ $	 	 
 
 ex3. 
   Input (tokens): 
-~ question = 43b ;  ~
+_ question = 43b ;  _
 
 Maximum number of steps: 
 100
@@ -35,11 +37,12 @@ Maximum number of steps:
 
 Trace	Tree
 Step	Stack	Input	Action
-1	0	~ question = 43b ; ~ $	 	 
+1	0	_ question = 43b ; _ $	s8	 
+2	0 _ 8	question = 43b ; _ $		 	 
 
 ex4. 
-  Input (tokens): 
-~ exit xdysdf > 43 ~
+ Input (tokens): 
+_ exit xdysdf > 43 _
 
 Maximum number of steps: 
 100
@@ -48,4 +51,5 @@ Maximum number of steps:
 
 Trace	Tree
 Step	Stack	Input	Action
-1	0	~ exit xdysdf > 43 ~ $	 	 
+1	0	_ exit xdysdf > 43 _ $	s8	 
+2	0 _ 8	exit xdysdf > 43 _ $	 
