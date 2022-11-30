@@ -1,0 +1,10 @@
+~
+	_a_b_c = 367b2; abcdef = 78b; _a_b_c = abcdef % 10b;
+	LOOP 3b > 2b: 
+		OPTION abcdef < _a_b_c: 
+			efghij=48b8;
+			efghij = efghij * 10b;
+		;
+	EXIT efghij > 1000b8 ;
+~
+			 

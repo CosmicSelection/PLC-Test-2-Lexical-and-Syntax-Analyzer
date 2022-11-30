@@ -1,0 +1,10 @@
+~
+	4253b4 = xzxser; x_y_z_ = 39b; xzxser = xzxser + x_y_z_ - 435b2;
+	LOOP x_y_z_ < xzxser; 
+		OPTION x_y_z_ = 1b: 
+			kvsfvf = 2b * x_y_z_;
+		;
+	EXIT x_y_z_ = ;
+	
+
+~			 

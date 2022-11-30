@@ -1,0 +1,10 @@
+~
+	x4yzya = 4253b4; _x_y_z = 3$9b; xdyfzy = xdyfzy + _x_y_z - 435b2;
+	LOOP _x_y_z < x: 
+		OPTION z == 1: 
+			_x_y_z = 2gb * y_z;
+		;
+	EXIT # _x_y_z = 2b*_x_y_z;
+	
+~
+			 
